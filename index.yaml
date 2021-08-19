@@ -3,6 +3,26 @@ entries:
   envoy:
   - apiVersion: v2
     appVersion: 1.1.0
+    created: "2021-08-19T07:41:37.885073702Z"
+    description: envoy.
+    digest: c95fde2097429b61a128deb631d31f449cbdd06f28a9ebe530f8e1db8b668acd
+    home: https://scalar-labs.com/
+    icon: https://scalar-labs.com/wp-content/themes/scalar/assets/img/logo_scalar.svg
+    keywords:
+    - envoy
+    - proxy
+    maintainers:
+    - email: kun.tei@scalar-labs.com
+      name: Kun Tei
+    name: envoy
+    sources:
+    - https://github.com/scalar-labs/scalar-envoy
+    type: application
+    urls:
+    - https://github.com/leosys-space/scalardl-helm-charts/releases/download/envoy-1.0.1/envoy-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.1.0
     created: "2021-08-19T04:53:41.198755876Z"
     description: envoy.
     digest: 4d3f242d7b858e997b1d44843a6cfdb4e5ad7ebe986c1127b54d22e335b58425
@@ -193,4 +213,4 @@ entries:
     urls:
     - https://github.com/scalar-labs/helm-charts/releases/download/schema-loading-1.3.0/schema-loading-1.3.0.tgz
     version: 1.3.0
-generated: "2021-08-19T05:03:50.133524718Z"
+generated: "2021-08-19T07:41:37.885106203Z"

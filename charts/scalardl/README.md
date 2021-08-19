@@ -9,12 +9,6 @@ Current chart version is `2.1.1`
 |------------|------|---------|
 | https://leosys-space.github.io/scalardl-helm-charts | envoy | 1.0.* |
 
-## Requirements
-
-| Repository | Name | Version |
-|------------|------|---------|
-| https://scalar-labs.com.github.io/helm-charts | envoy | 1.0.* |
-
 ## Values
 
 | Key | Type | Default | Description |

@@ -1,6 +1,6 @@
 dependencies:
 - name: envoy
   repository: https://leosys-space.github.io/scalardl-helm-charts
-  version: 1.0.1
-digest: sha256:9b930fbaddd87d01c7e6ee82b7ce99c424c671a4140880924cd9c49b2739337b
-generated: "2021-08-19T17:00:08.531573+09:00"
+  version: 1.0.2
+digest: sha256:625b8f412ab721eb4ef365b77350afdafc3d3bd51f08b264a278a02534224dc1
+generated: "2021-08-19T17:45:31.954246+09:00"

@@ -2,10 +2,10 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ include "scalardl.fullname" . }}-envoy-grafana-dashboard
+  name: {{ include "envoy.fullname" . }}-grafana-dashboard
   labels:
     grafana_dashboard: "1"
-    {{- include "scalardl-envoy.labels" . | nindent 4 }}
+    {{- include "scalar-envoy.labels" . | nindent 4 }}
 {{- if .Values.envoy.grafanaDashboard.namespace }}
   namespace: {{ .Values.envoy.grafanaDashboard.namespace }}
 {{- end }}

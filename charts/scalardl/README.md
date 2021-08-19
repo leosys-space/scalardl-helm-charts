@@ -7,7 +7,7 @@ Current chart version is `2.1.1`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://scalar-labs.com.github.io/helm-charts | envoy | 1.0.* |
+| https://leosys-space.github.io/scalardl-helm-charts | envoy | 1.0.* |
 
 ## Values
 

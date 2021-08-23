@@ -12,8 +12,8 @@ Current chart version is `1.0.2`
 | envoy.grafanaDashboard.enabled | bool | `false` |  |
 | envoy.grafanaDashboard.namespace | string | `"monitoring"` |  |
 | envoy.image.pullPolicy | string | `"IfNotPresent"` | Specify a imagePullPolicy |
-| envoy.image.repository | string | `"ghcr.io/scalar-labs/scalar-envoy"` | Docker image |
-| envoy.image.version | string | `"1.1.0"` |  |
+| envoy.image.repository | string | `"ghcr.io/leosys-space/scalar-envoy"` | Docker image |
+| envoy.image.version | string | `"1.0.11"` |  |
 | envoy.imagePullSecrets | list | `[]` | Optionally specify an array of imagePullSecrets. Secrets must be manually created in the namespace. |
 | envoy.nodeSelector | object | `{}` | nodeSelector is form of node selection constraint |
 | envoy.podSecurityContext | object | `{}` | PodSecurityContext holds pod-level security attributes and common container settings |

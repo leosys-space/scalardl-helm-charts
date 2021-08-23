@@ -18,9 +18,9 @@ envoy:
 
   image:
     # envoy.image.repository -- Docker image
-    repository: ghcr.io/scalar-labs/scalar-envoy
+    repository: ghcr.io/leosys-space/scalar-envoy
     # envoy.image.tag -- Docker tag
-    version: 1.1.0
+    version: 1.0.11
     # envoy.image.pullPolicy -- Specify a imagePullPolicy
     pullPolicy: IfNotPresent
 

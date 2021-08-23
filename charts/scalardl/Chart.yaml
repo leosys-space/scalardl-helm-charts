@@ -2,7 +2,7 @@ apiVersion: v2
 name: scalardl
 description: Scalar DL is a tamper-evident and scalable distributed database.
 type: application
-version: 2.1.0
+version: 2.1.1
 appVersion: 3.0.1
 deprecated: false
 icon: https://scalar-labs.com/wp-content/themes/scalar/assets/img/logo_scalar.svg
@@ -24,5 +24,5 @@ maintainers:
 dependencies:
 - name: envoy
   version: "1.0.*"
-  repository: https://scalar-labs.com.github.io/helm-charts
+  repository: https://leosys-space.github.io/scalardl-helm-charts
   condition: envoy.enabled

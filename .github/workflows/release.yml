@@ -29,7 +29,7 @@ jobs:
 
       - name: Add dependency chart repos
         run: |
-          helm repo add scalar-labs https://scalar-labs.github.io/scalardl-helm-charts
+          helm repo add scalar-labs https://leosys-space.github.io/scalardl-helm-charts
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.2.1

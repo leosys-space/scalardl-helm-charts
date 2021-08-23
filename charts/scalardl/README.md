@@ -1,7 +1,13 @@
 # scalardl
 
 Scalar DL is a tamper-evident and scalable distributed database.
-Current chart version is `2.1.0`
+Current chart version is `2.1.1`
+
+## Requirements
+
+| Repository | Name | Version |
+|------------|------|---------|
+| https://leosys-space.github.io/scalardl-helm-charts | envoy | 1.0.* |
 
 ## Requirements
 

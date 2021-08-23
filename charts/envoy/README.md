@@ -1,7 +1,7 @@
 # envoy
 
 envoy.
-Current chart version is `1.0.0`
+Current chart version is `1.0.2`
 
 ## Values
 

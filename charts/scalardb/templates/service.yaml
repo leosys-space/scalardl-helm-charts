@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "scalardb.fullname" . }}-headless
+  name: {{ include "scalardb.fullname" . }}-envoy-headless
   labels:
     {{- include "scalardb.labels" . | nindent 4 }}
   annotations:

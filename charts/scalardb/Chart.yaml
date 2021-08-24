@@ -18,3 +18,8 @@ sources:
 maintainers:
   - name: Pham Ba Thong
     email: thong.pham@scalar-labs.com
+dependencies:
+- name: envoy
+  version: "1.0.*"
+  repository: https://leosys-space.github.io/scalardl-helm-charts
+  condition: envoy.enabled

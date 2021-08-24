@@ -1,12 +1,20 @@
 # scalardb
 
 Scalar DB server
-Current chart version is `1.0.0`
+Current chart version is `1.0.1`
+
+## Requirements
+
+| Repository | Name | Version |
+|------------|------|---------|
+| https://leosys-space.github.io/scalardl-helm-charts | envoy | 1.0.* |
 
 ## Values
 
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
+| envoy.enabled | bool | `true` |  |
+| envoy.nameOverride | string | `"scalardb-envoy"` |  |
 | fullnameOverride | string | `""` | String to fully override scalardb.fullname template |
 | nameOverride | string | `""` | String to partially override scalardb.fullname template (will maintain the release name) |
 | scalardb.affinity | object | `{}` | The affinity/anti-affinity feature, greatly expands the types of constraints you can express. |
